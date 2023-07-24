@@ -15,31 +15,31 @@ function verificar() {
             genero = 'Homem'
             if (idade >= 0 && idade < 15) {
                 //crianca
-                img.setAttribute('src', 'fotocriancamenino.jpg')
+                img.setAttribute('src', 'gugu.jpg')
             } else if (idade < 35) {
                 //jovem
                 img.setAttribute('src', 'fotohomemjovem.jpg')
             }else if ( idade < 50) {
                 //adulto
-                img.setAttribute('src', 'fotohomem40.jpg')
+                img.setAttribute('src', 'fabio2.jpg')
             }else {
                 //idoso
-                img.setAttribute('src', 'fotoidoso.jpg')
+                img.setAttribute('src', 'luizin.jpg')
             }
         } else if (fsex[1].checked) {
             genero = 'Mulher'
             if (idade >= 0 && idade < 15) {
                 //crianca
-                img.setAttribute('src', 'fotocriancamenina.jpg')
+                img.setAttribute('src', 'anajulia.jpg')
             } else if (idade < 35) {
                 //jovem
-                img.setAttribute('src', 'fotomulherjovem.jpg')
+                img.setAttribute('src', 'juliana2.jpg')
             } else if (idade < 50) {
                 //adulto
-                img.setAttribute('src', 'fotomulher40.jpg')
+                img.setAttribute('src', 'denise2.jpg')
             } else {
                 //idoso
-                img.setAttribute('src', 'fotoidosa.webp')
+                img.setAttribute('src', 'janete(2).jpg')
             }
         }
         res.innerHTML = `Detectamos ${genero} com ${idade} anos.`
